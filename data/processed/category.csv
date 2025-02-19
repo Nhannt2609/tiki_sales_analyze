@@ -1,0 +1,95 @@
+,category,category_id,parent_category
+0,Women's Backpack,1,Backpacks
+1,Root,2,Root
+2,Fashion,3,Other
+3,Backpack & Suitcase,4,Other
+4,Men's Backpack,5,Backpacks
+5,Women's Fashion Bag,6,Bags
+6,Duffle Bag,7,Bags
+7,Shockproof Bag,8,Other
+8,Other Kitchen Accessories,9,Other
+9,Drawstring Backpack,10,Backpacks
+10,Travel Backpack,11,Backpacks
+11,Laptop Backpack,12,Backpacks
+12,Suitcase-Backpack,13,Other
+13,Laptop Briefcase,14,Other
+14,Student Backpack & School Bag,15,Backpacks
+15,Other Travel Accessories,16,Other Accessories
+16,Luggage Accessories,17,Bag Accessories
+17,Lock,18,Locks & Keys
+18,Plastic Suitcase,19,Suitcases
+19,Kids' Suitcase,20,Suitcases
+20,Fabric Suitcase,21,Suitcases
+21,Passport Wallet,22,Wallets
+22,Men's Crossbody Bag,23,Bags
+23,Men's Fashion Bag,24,Bags
+24,Men's Horizontal Wallet,25,Wallets
+25,Men's Wallet,26,Other
+26,Waist Bag,27,Other
+27,Men's Office Handbag,28,Bags
+28,Men's Vertical Wallet,29,Wallets
+29,Men's Horizontal Strap Slippers,30,Slippers & Sandals
+30,Men's Shoes & Slippers,31,Other
+31,Men's Leather Slip-On Shoes,32,Shoes
+32,Men's Loafer Shoes,33,Shoes
+33,Men's Low-Top Sneakers,34,Shoes
+34,Men's Indoor Slippers,35,Slippers & Sandals
+35,Men's Flip-Flops,36,Slippers & Sandals
+36,Men's Short Boots,37,Shoes
+37,Men's High Boots,38,Shoes
+38,Men's Slip-On Plastic Shoes,39,Shoes
+39,Men's Fabric Slip-On Shoes,40,Shoes
+40,Men's Cross-Strap Sandals,41,Slippers & Sandals
+41,Men's Horizontal Strap Sandals,42,Slippers & Sandals
+42,Men's Sandals,43,Other
+43,Men's Oxford Shoes,44,Shoes
+44,Men's Dress Shoes,45,Shoes
+45,Men's High-Top Sneakers,46,Shoes
+46,Men's Shoe Insoles,47,Shoe Accessories
+47,Men's Shoe Accessories,48,Shoe Accessories
+48,Microscope,49,Other
+49,Shoe Cleaning,50,Shoe Accessories
+50,Casual Crossbody Bag,51,Bags
+51,Long Wallet,52,Wallets
+52,Medium & Small Handbags,53,Bags
+53,Bag Accessories,54,Bag Accessories
+54,Bag Straps & Handles,55,Bag Accessories
+55,Keychains & Decorative Accessories,56,Locks & Keys
+56,Office Crossbody Bag,57,Other
+57,Tote Bag with Zipper,58,Bags
+58,Open Tote Bag,59,Bags
+59,Large Handbag,60,Other
+60,Short Wallet,61,Wallets
+61,Horizontal Strap Slippers,62,Other
+62,Women's Slippers & Clogs,63,Slippers & Sandals
+63,Women's Shoes & Slippers,64,Other
+64,Plants,65,Other Accessories
+65,Open-Toe High Heels,66,Shoes
+66,Pointed High Heels,67,Shoes
+67,Low-Top Sneakers,68,Other
+68,Indoor Slippers,69,Slippers & Sandals
+69,Flip-Flops,70,Slippers & Sandals
+70,Closed-Toe Shoes with Straps,71,Shoes
+71,Women's Short Boots,72,Shoes
+72,Women's High Boots,73,Shoes
+73,Women's Boots,74,Shoes
+74,Pointed-Heel Women's Boots,75,Shoes
+75,Pointed-Toe Ballet Flats,76,Shoes
+76,Ballet Flats,77,Other
+77,Round-Toe Ballet Flats,78,Shoes
+78,Square-Toe Ballet Flats,79,Shoes
+79,Back-Strap High Heels,80,Shoes
+80,Mule High Heels,81,Shoes
+81,Pointed-Toe Slip-On Shoes,82,Other
+82,Square-Toe Slip-On Shoes,83,Shoes
+83,Open-Back Slip-On Shoes,84,Other
+84,High-Heeled Slip-On Shoes,85,Shoes
+85,Various Tables & Chairs,86,Other Accessories
+86,Lace-Up Sandals,87,Slippers & Sandals
+87,Gladiator Sandals,88,Slippers & Sandals
+88,Flat Sandals,89,Slippers & Sandals
+89,Toe-Strap Sandals,90,Slippers & Sandals
+90,High-Top Sneakers,91,Other
+91,Men's Eyeglass Frames,92,Other
+92,Shoe Insoles,93,Shoe Accessories
+93,Shoe Accessories,94,Shoe Accessories
