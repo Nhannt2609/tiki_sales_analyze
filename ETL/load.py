@@ -5,13 +5,14 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+DB_HOST = os.getenv("DB_HOST")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 conn = psycopg2.connect(
     dbname="defaultdb",
-    user="user",
+    user="avnadmin",
     password=DB_PASSWORD,
-    host="pg-27827a4c-job-analysis38129.h.aivencloud.com",
+    host=DB_HOST,
     port="14694",
     sslmode="require"
 )
@@ -108,12 +109,42 @@ def load_data_product():
                       fulfillment_type, review_count, rating_average, 
                       favourite_count, number_of_images, has_video, date_created))
 
+def load_data_sales():
+    with open("../data/processed/sales.csv", "r", encoding="utf-8") as file:
+        reader = csv.reader(file)
+        next(reader)  # Bỏ qua dòng tiêu đề
+
+        for row in reader:
+            product_id = int(row[1])  # Bỏ qua index đầu tiên (row[0])
+            price = int(row[2])
+            pay_later = row[3].lower() == "true"  # Chuyển thành Boolean
+            vnd_cashback = int(row[4])
+            quantity_sold = int(row[5])
+            brand_id = int(row[6])
+            category_id = int(row[7])
+            seller_id = int(row[8])
+            gender_id = row[9]  # Kiểu CHAR(1)
+            sales_id = int(row[10])
+            revenue = int(row[11])
+
+            # Thực thi câu lệnh INSERT
+            cursor.execute("""
+                INSERT INTO "FactSales" (
+                    product_id, price, pay_later, vnd_cashback, quantity_sold, 
+                    brand_id, category_id, seller_id, gender_id, sales_id, revenue
+                ) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s, %s, %s)
+                ON CONFLICT (sales_id) DO NOTHING;
+            """, (product_id, price, pay_later, vnd_cashback, quantity_sold, 
+                  brand_id, category_id, seller_id, gender_id, sales_id, revenue))
+
 # load_data_category()
 # load_data_gender()
 # load_data_brand()
 # load_data_seller()
-load_data_product()
+# load_data_product()
+# load_data_sales()
 
 
 conn.commit()
-
+cursor.close()
+conn.close()
